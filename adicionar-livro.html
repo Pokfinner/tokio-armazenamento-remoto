@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            box-shadow: 5px 5px 10px #22222222;
+            padding: 20px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <form method="POST">
+
+            <input name="nome" type="text" placeholder="Nome do Livro">
+            <input name="autor" type="text" placeholder="Autor">
+            <input type="submit" value="Adicionar">
+
+        </form>
+
+    </main>
+    <a href="/livros"> Voltar </a>
+
+</body>
+
+</html>

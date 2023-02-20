@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            box-shadow: 5px 5px 10px #22222222;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        main > * {
+            margin: 20px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+
+        <h1>Livros</h1>
+        
+        <a href="/livros/adicionar">Adicionar Novo Livro</a>
+        <a href="/livros/lista">Lista de todos os Livros</a>
+        
+    </main>
+</body>
+</html>
